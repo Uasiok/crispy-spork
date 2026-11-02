@@ -1,4 +1,9 @@
 sp = []
+def clear():
+    global sp
+    sp.clear()
+    return
+
 def push(x):
     global sp
     sp.append(x)
